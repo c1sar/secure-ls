@@ -1,5 +1,5 @@
 {
-  "name": "secure-ls",
+  "name": "vs-secure-ls",
   "version": "1.2.6",
   "description": "Secure localStorage data with high level of encryption and data compression",
   "main": "./dist/secure-ls.js",
@@ -36,8 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/softvar/secure-ls.git"
+    "url": "git://github.com/c1sar/secure-ls.git",
+    "directory": "packages/vs"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "secure-ls",
     "localStorage",
